@@ -5,12 +5,18 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('/public/images/money-image.jpg');
+    background-size: cover;
+    background-position: center;
+   
+   
    
    
       
   }
   .auth-header {
-    font-size: 50px;
+    color:rgb(248, 247, 247);
+    font-size: 35px;
     text-align: center;
     font-family: sans-serif;
    
@@ -20,15 +26,21 @@
   
   
   .auth-form {
+    color: rgb(250, 248, 248);
+    
    
     width: 200px;
-    padding: 500px;
-    background-color: #101010dd;
+    height: 350px;
+    
+    padding: 100px;
+    
     border-radius: 8px;
-    box-shadow: 0 0 10px rgb(10, 10, 10);
-    background-image: url('/public/images/background-image.jpeg');
-    background-size: cover;
-    background-position: center;
+    box-shadow: 0 0 10px rgb(18, 18, 18);
+    
+ 
+   
+   
+   
     font-family: sans-serif;
   }
 
@@ -51,15 +63,15 @@
   }
   
   input {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #878585;
-    border-radius: 10px;
+    border-radius: 12px;
   }
   
   button {
     width: 95%;
     padding: 10px;
-    background-color: #05611b;
+    background-color: #0d6004;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -67,17 +79,17 @@
   }
   
   button:hover {
-    background-color: #119f22;
+    background-color: #0ab835;
   }
   
   .switch-form {
-    color: blue;
+    color: rgb(234, 216, 16);
     cursor: pointer;
     margin-top: 8px;
   }
   
   .error-message {
-    color: rgb(255, 0, 0);
+    color: rgb(249, 9, 9);
     margin-top: 8px;
   }
   
