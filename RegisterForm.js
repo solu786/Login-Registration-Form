@@ -54,7 +54,7 @@ const RegisterForm = ({ switchForm }) => {
               type="password"
               id="confirmPassword"
               name="confirmpassword"
-              placeholder="ReEnter your password"required
+              placeholder="Reenter your password"required
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
             />
